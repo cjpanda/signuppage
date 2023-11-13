@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SignUp Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" async defer></script>
+    <script
+      src="https://kit.fontawesome.com/4e0ee0af5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <section class="media-container">
+          <img src="./vector Image.jpg" alt="vector-image" class="vector" />
+          <p>Join or new platform and enjoy the best new security</p>
+        </section>
+        <!-- Form Data and Details  -->
+        <section class="form-container">
+          <h1>Sign up</h1>
+          <form method="" action="">
+            <div class="form-data">
+
+              <div class="form-input">
+                <label for="first-name"
+                  ><i class="fa-solid fa-user"></i>
+                </label>
+                <input
+                  id="first-name"
+                  type="text"
+                  name="first-name"
+                  placeholder="First Name"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="last-name"><i class="fa-solid fa-user"></i> </label>
+                <input
+                  id="last-name"
+                  type="text"
+                  name="last-name"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email Address"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="phone"><i class="fa-solid fa-phone"></i></i></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="123-456-7890"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="password"><i class="fa-solid fa-lock"></i></i></label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  name="password"
+                  required
+                />
+              </div>
+
+              <div class="form-input">
+                <label for="password"><i class="fa-solid fa-lock"></i></i></label>
+                <input
+                  type="password"
+                  id="confirm"
+                  placeholder="Confirm Password"
+                  name="password"
+                  required
+                />
+              </div>
+
+              <small class="terms">
+                By signing up, you are agreeing to our
+                <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+              </small>
+
+              <button class="button" type="submit">Sign Up</button>
+
+              <small class="login-text">Already have an account? <a href="#">Login</a></small>
+
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
